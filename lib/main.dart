@@ -1,7 +1,13 @@
 import 'package:flutter/material.dart';
+import 'package:hive_flutter/adapters.dart';
 import 'package:note_app_test/screens/note_page.dart';
+import 'package:note_app_test/widgets/const.dart';
 
-void main() {
+void main() async {
+  await Hive.initFlutter();
+
+  await Hive.openBox(kNotesBOx);
+
   runApp(const NoteApp());
 }
 
