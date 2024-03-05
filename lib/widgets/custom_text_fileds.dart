@@ -5,11 +5,11 @@ import 'package:flutter/material.dart';
 // ignore: must_be_immutable
 class CustomTextField extends StatelessWidget {
   CustomTextField(
-      {super.key, required this.hint, this.onChange, this.maxLines = 1});
+      {super.key, required this.hint, this.onSaved, this.maxLines = 1});
 
   final String hint;
   final int maxLines;
-  Function(String)? onChange;
+  void Function(String?)? onSaved;
 
   @override
   Widget build(BuildContext context) {
@@ -17,12 +17,13 @@ class CustomTextField extends StatelessWidget {
       maxLines: maxLines,
       cursorColor: Colors.white,
       validator: (data) {
-        if (data!.isEmpty) {
+        if (data?.isEmpty ?? true) {
           return 'Filed is required';
         }
       },
       decoration: InputDecoration(
         focusedBorder: buildBordeerDecoration(),
+        errorBorder: buildBordeerDecoration(),
         enabledBorder: buildBordeerDecoration(color: Colors.blue),
         hintText: hint,
         hintStyle: const TextStyle(
@@ -30,7 +31,7 @@ class CustomTextField extends StatelessWidget {
           fontSize: 16,
         ),
       ),
-      onChanged: onChange,
+      onSaved: onSaved,
     );
   }
 
