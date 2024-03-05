@@ -11,16 +11,3 @@ class HomePage extends StatelessWidget {
     );
   }
 }
-
-// appBar: AppBar(
-//   title: const Text(
-//     'Note App',
-//   ),
-//   actions: [
-//     IconButton(
-//       onPressed: () {},
-//       icon: const Icon(Icons.search),
-//     ),
-//   ],
-// ),
-
