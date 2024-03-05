@@ -10,7 +10,7 @@ part 'add_note_state.dart';
 
 class AddNoteCubit extends Cubit<AddNoteState> {
   AddNoteCubit() : super(AddNoteInitial());
-
+// تعتبر الخطوه التالته في ان شاء الكيوبتس create function
   addNote(NoteModel note) async {
     emit(AddNoteLoading());
     try {
