@@ -4,9 +4,11 @@ import 'package:hive_flutter/hive_flutter.dart';
 import 'package:note_app_test/cubits/add_note_cubit/add_note_cubit.dart';
 import 'package:note_app_test/models/note_model.dart';
 import 'package:note_app_test/screens/note_page.dart';
+import 'package:note_app_test/simple_bloc_observer.dart';
 import 'package:note_app_test/widgets/const.dart';
 
 void main() async {
+  Bloc.observer = SimpleBlokObserver();
   await Hive.initFlutter();
 // استدعاء الداتا بيز
   // ignore: unused_local_variable
