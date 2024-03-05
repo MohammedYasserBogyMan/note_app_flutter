@@ -15,14 +15,14 @@ class AddNoteBottemSheet extends StatelessWidget {
             CustomTextField(
               hint: 'Title',
             ),
-            SizedBox(
+            const SizedBox(
               height: 15,
             ),
             CustomTextField(
               maxLines: 5,
               hint: 'Describtion',
             ),
-            SizedBox(
+            const SizedBox(
               height: 30,
             ),
             CustomButton(text: 'Add'),

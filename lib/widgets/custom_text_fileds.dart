@@ -1,7 +1,5 @@
 // ignore_for_file: body_might_complete_normally_nullable
 
-import 'dart:ffi';
-
 import 'package:flutter/material.dart';
 
 // ignore: must_be_immutable
