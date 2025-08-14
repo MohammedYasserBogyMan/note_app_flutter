@@ -428,48 +428,6 @@ flutter build linux --release
 
 ---
 
-## 🤝 Contributing
-
-We welcome contributions from the community! Here's how you can help:
-
-### How to Contribute
-
-1. **Fork the repository**
-2. **Create a feature branch**
-   ```bash
-   git checkout -b feature/amazing-feature
-   ```
-3. **Make your changes**
-4. **Add tests** (if applicable)
-5. **Commit your changes**
-   ```bash
-   git commit -m 'Add amazing feature'
-   ```
-6. **Push to the branch**
-   ```bash
-   git push origin feature/amazing-feature
-   ```
-7. **Open a Pull Request**
-
-### Development Guidelines
-
-- **Code Quality**: Follow Dart/Flutter best practices
-- **Testing**: Add tests for new features
-- **Documentation**: Update documentation for API changes
-- **Performance**: Ensure changes don't degrade performance
-- **Accessibility**: Follow accessibility guidelines
-
-### Areas for Contribution
-
-- 🐛 **Bug Fixes** - Help identify and fix issues
-- ✨ **New Features** - Implement planned features
-- 📚 **Documentation** - Improve README, code comments, and guides
-- 🎨 **UI/UX** - Enhance design and user experience
-- 🧪 **Testing** - Increase test coverage
-- 🌐 **Localization** - Add support for more languages
-
----
-
 ## 📚 Documentation
 
 ### Additional Resources
@@ -552,7 +510,7 @@ _Coming Soon - Step-by-step tutorials for common tasks_
 
 **⭐ Star this repository if you found it helpful! ⭐**
 
-**🤝 Contributions are welcome! Check our [Contributing Guidelines](#-contributing) 🤝**
+
 
 
 
