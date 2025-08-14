@@ -32,7 +32,6 @@
   - [🛠️ Development](#️-development)
     - [Development Setup](#development-setup)
     - [Building for Production](#building-for-production)
-  - [🤝 Contributing](#-contributing)
   - [📚 Documentation](#-documentation)
   - [🗺️ Roadmap](#️-roadmap)
 
@@ -97,27 +96,6 @@ This application solves the common problem of scattered thoughts and ideas by pr
 
 ## 📱 Demo & Screenshots
 
-> **Note:** Add screenshots of your app here once you have the UI ready. Recommended sizes: 1080x1920 for mobile, 1920x1080 for desktop.
-
-```markdown
-<!-- Example screenshot structure -->
-
-### Mobile Screenshots
-
-![Home Screen](screenshots/home_screen.png)
-![Add Note](screenshots/add_note.png)
-![Edit Note](screenshots/edit_note.png)
-
-### Desktop Screenshots
-
-![Desktop View](screenshots/desktop_view.png)
-```
-
-### 🎬 Live Demo
-
-_Coming Soon - Deploy to web and add link here_
-
----
 
 ## 🚀 Quick Start
 
